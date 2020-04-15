@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetDatabase>pubs</TargetDatabase>
+    <TargetConnectionString>Data Source=TWLADL-0408\MYSQL;Initial Catalog=pubs;User ID=sa;Password=;Encrypt=False;TrustServerCertificate=True;Authentication=SqlPassword;MultiSubnetFailover=False</TargetConnectionString>
+  </PropertyGroup>
+</Project>
