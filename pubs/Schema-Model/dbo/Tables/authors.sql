@@ -8,7 +8,8 @@ CREATE TABLE [dbo].[authors]
 [city] [varchar] (20) NULL,
 [state] [char] (2) NULL,
 [zip] [char] (5) NULL,
-[contract] [bit] NOT NULL
+[contract] [bit] NOT NULL,
+[country] [nchar] (10) NULL
 )
 GO
 ALTER TABLE [dbo].[authors] ADD CONSTRAINT [CK__authors__au_id__37A5467C] CHECK (([au_id] like '[0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]'))
