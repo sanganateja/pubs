@@ -6,7 +6,8 @@ CREATE TABLE [dbo].[sales]
 [qty] [smallint] NOT NULL,
 [payterms] [varchar] (12) NOT NULL,
 [title_id] [dbo].[tid] NOT NULL,
-[myoders] [nchar] (10) NULL
+[myoders] [nchar] (10) NULL,
+[parcels] [nchar] (10) NULL
 )
 GO
 ALTER TABLE [dbo].[sales] ADD CONSTRAINT [UPKCL_sales] PRIMARY KEY CLUSTERED  ([stor_id], [ord_num], [title_id])
